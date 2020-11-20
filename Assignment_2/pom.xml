@@ -3,4 +3,11 @@
   <groupId>Assignment_2</groupId>
   <artifactId>Assignment_2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <distributionManagement>
+	<snapshotRepository>
+		<id>upes</id>
+		<name>CICD_Assignment2</name>
+		<url>http://localhost:8081/repository/CICD_Assignment2/</url>
+	</snapshotRepository>
+  </distributionManagement>
 </project>
